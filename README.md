@@ -190,6 +190,9 @@ Let's add the submodules...
 $ git submodule add git@localhost:/var/git/example/arango.git
 $ git submodule add git@localhost:/var/git/example/server.git
 $ git submodule add git@localhost:/var/git/example/web.git
+
+# checkout specfic branch
+$ git submodule add -b BRANCH <address>
 ```
 This will have created a .gitmodules in the development-local repository so
 that future developers will be able to fetch the submodules while fetching the
